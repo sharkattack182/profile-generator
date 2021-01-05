@@ -1,0 +1,42 @@
+.body {
+    max-width: 100%;
+}
+
+
+.jumbotron {
+  height: 30vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+img {
+  height: 200px;
+  border-radius: 150px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.about-me {
+    color: blue;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100%;
+    overflow-x: hidden;
+}
+
+.col-lg-4, .col-lg-8 {
+    margin: 30px auto;
+    border: solid;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.row {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+ul {
+    list-style: none
+}

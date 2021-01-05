@@ -14,6 +14,11 @@ inquirer.prompt([
     },
     {
         type: "input",
+        message: "What is your position at work?",
+        name: "job"
+    },
+    {
+        type: "input",
         message: "Where do you live?",
         name: "location"
     },
